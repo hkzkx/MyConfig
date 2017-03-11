@@ -1,0 +1,15 @@
+# ===================================================================
+# Sample Spring Cloud Config.
+# ===================================================================
+
+# Property used on app startup to check the config server status
+configserver:
+  name: My config server  - ${spring.application.name} - dev - git
+  status: Connected to the My config server! - ${spring.application.name} - dev - git
+
+# Default JWT secret token (to be changed in production!)
+My:
+  security:
+    authentication:
+      jwt:
+        secret: my-secret-token-to-change-in-production

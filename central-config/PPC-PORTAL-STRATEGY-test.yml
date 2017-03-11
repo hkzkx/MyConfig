@@ -1,0 +1,9 @@
+# Property used on app startup to check the config server status
+configserver:
+  name: My config server  - portal strategy  -ttttttttttttttt- git
+  status: Connected to the My config server!  - portal strategy -ttttttttttttttt - git
+
+spring:
+  datasource:
+    username: My_user
+    password: '{cipher}AIB7j0JGqbrnoMJEq7B01PPEZGRT6O4luWsF72mOpIeegGrgsx7ZHdnOrBx95gPcNpAnBB4Qjg7lA22ePEONFiggM65BJTtNaFwgkEFsSzjwb7IXVTFHkAoopzcnZuK8wtDKJL7Jxy8dQT1T7Lih69s3HOEyFZ1C2p0O/k5svZy15gBJLKxAI6P1mVmgn1WVTft+tdPR0b1jm//Q5CJVt+RaAKaUkoaxA1ik6euwLcMGbA=='

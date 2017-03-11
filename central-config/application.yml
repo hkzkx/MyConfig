@@ -1,0 +1,6 @@
+configserver:
+    name: HaHa Test for Spring Cloud Config with an SSH configuration source - git default directory
+    status: git default directory !!! - hahah 
+
+info:
+    test: test HaHa - default directory

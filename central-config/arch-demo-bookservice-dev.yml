@@ -1,0 +1,20 @@
+# ===================================================================
+# Sample Spring Cloud Config.
+# ===================================================================
+
+# Property used on app startup to check the config server status
+configserver:
+  name: My config server  - bookservice - dev - git
+  status: Connected to the My config server!  - bookservice - dev - git
+
+# Default database password
+spring:
+    datasource:
+        password: '{cipher}AIBoGErNtytChiR5E9gHYDzu/Y5OMd9rmHvwepi0aIOyi7tmeIdeitZGgR2YEkV9pfYUTYTzRyXwYIOSjkL0YA0SSKf2kZvF7YSBzmOrBCWAESRJPEj/qfw0ZhN6+3sh16tRNoAj6fkBQJcWn0EvbulEwSzeMXGhpfn5ymqxFdCwsjZyv0pfSY56k1kDK7dNqLVW1rqJf/dEiVdcqY6FVOzYZNHquDpz/9/tVAdL+v0Sdg=='
+
+# Default JWT secret token (to be changed in production!)
+My:
+  security:
+    authentication:
+      jwt:
+        secret: my-secret-token-to-change-in-production

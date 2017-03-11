@@ -1,0 +1,6 @@
+configserver:
+    name: Root
+    status: I am from git root directory !!!!!!!!!!!!! - ${spring.application.name}
+
+info:
+    test: git root directory
